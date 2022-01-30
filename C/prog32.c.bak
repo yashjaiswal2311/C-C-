@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int type3()
+{
+	int a,b;
+	return (a*b);
+}
+void main()
+{
+	int a,b,c;
+	printf("Enter value of a & b:");
+	scanf("%d %d",&a,&b);
+	c=type3();
+	printf("value of c: %d",c);
+}

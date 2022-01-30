@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+	int x=5;
+	int y=10;
+
+	if (x>y)
+	{
+		printf("%d",x);
+	}
+	else if (x<y)
+	{
+		printf("%d",y);
+	}
+}

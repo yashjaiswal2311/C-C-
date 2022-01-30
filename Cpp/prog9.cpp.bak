@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+class Member
+{
+	public:
+		static string x;
+		int y;
+		char z;
+};
+string Member :: x;
+
+int main()
+{
+	Member m;
+	Member :: x = "Static";				//string values will be write in ""
+	//m.x = "Static"
+	m.y = 80;
+	m.z = 'C';
+
+	cout<<"x = "<<Member::x<<endl;
+	//cout<<"x = "<<m.x<<endl;
+	cout<<"y = "<<m.y<<endl;
+	cout<<"z = "<<m.z<<endl;
+	return 0;
+}

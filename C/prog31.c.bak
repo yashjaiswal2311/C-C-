@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void type2(int x,int y)
+{
+	int z;
+	z=x*y;
+	printf("Answer is: %d",z);
+}
+void main()
+{
+	type2(10,20);
+}

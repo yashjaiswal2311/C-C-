@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+	int c,d;
+	float a=5,b=2;
+	c = a % b;
+	d=a/2;
+	printf("c=%d,d=%d");
+	return 0;
+}
+
+//error
